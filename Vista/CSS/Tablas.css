@@ -1,0 +1,41 @@
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+    td{
+       
+    padding: 5px;
+    box-shadow: 3px 3px 2px rgba(189, 187, 187, 0.548);
+    background-color: rgba(189, 187, 187, 0.548);
+    transition: 0.5s;
+    }
+
+   /* table {
+        width: 100%;
+        border: 1px solid #000;
+     }*/
+   /*th, td {
+        width: 25%;
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid #000;
+        border-collapse: collapse;
+        padding: 0.3em;
+        caption-side: bottom;
+     }
+     caption {
+        padding: 0.3em;
+        color: #fff;
+         background: #000;
+     }
+     th {
+        background: #eee;
+     }*/
+

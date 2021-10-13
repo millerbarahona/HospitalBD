@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0px;
+    position: fixed
+}
+
+nav ul li a:after,
+nav ul li a:before,
+nav ul li a,
+nav ul,
+nav .logo img,
+nav {
+    transition-duration: 0.8s;
+}
+
+nav {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0px;
+    position: fixed;
+    border-bottom: 1px solid transparent;
+    z-index: 100;
+}
+
+nav:hover {
+    background-color: rgba(25, 180, 228, 0.8);
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(255, 0, 128, 0.1);
+}
+
+nav:hover .logo img {
+    width: 60%;
+}
+
+nav:hover ul {
+    margin-top: 8px;
+}
+
+nav:hover ul li a {
+    color: rgba(73, 73, 73, 0.5);
+}
+
+nav .logo img {
+    width: 100%;
+}
+
+nav ul {
+    margin: 0px;
+    margin-top: 8px;
+    padding: 0px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    height: 1px;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 0%;
+    background-color: transparent;
+    height: 1px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #ff0080;
+}
+
+nav ul li a:hover:before {
+    width: 0%;
+    background-color: #060a0f;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+    background-color: #060a0f;
+}
